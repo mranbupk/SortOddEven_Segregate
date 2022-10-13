@@ -34,7 +34,7 @@ Output :
 Sample input : 
 9
 1 2 3 4 5 6 7 8 10
-even < odd
+even > odd
 
 Output :
 [2, 7, 4, 5, 6, 3, 8, 1, 10]
