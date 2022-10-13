@@ -1,0 +1,43 @@
+Sort all even numbers in ascending order and then sort all odd numbers in descending order.
+Print it one by one.
+Inder zero(0) will be consider as even number.
+if(length of even number equal length of odd number)
+  -- Print first value even number and second value odd and so on..
+ 
+if(length of even number < length of odd number)
+  -- Print first value even number and second value odd and so on..
+  -- Print extra value odd number at the end.
+ 
+if(length of even number > length of odd number)
+  -- Print first value even number and second value odd and so on..
+  -- Print extra value even number at the end.
+  
+Example :
+Sample input : 
+8
+1 2 3 4 5 6 7 8
+odd == even
+
+Output :
+[2, 7, 4, 5, 6, 3, 8, 1]
+
+
+Sample input : 
+9
+1 2 3 4 5 6 7 8 9
+odd > even
+
+Output :
+[2, 9, 4, 7, 6, 5, 8, 3, 1]
+
+
+Sample input : 
+9
+1 2 3 4 5 6 7 8 10
+even < odd
+
+Output :
+[2, 7, 4, 5, 6, 3, 8, 1, 10]
+
+  
+
